@@ -100,6 +100,8 @@ print2DArray(task3Array);
 
 function create2DArray(rows, columns){
     var counter = 1;
+    var array1 = [];
+    
     for(let i = 0; i < rows; i++){
         var array2 = [];
         for(let j = 0; i < columns; j++){
