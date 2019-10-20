@@ -14,7 +14,9 @@ var task2Array = [
     [9, 10, 11, 12]
 ];
 
-//Task 0
+//Zadanie 0
+
+
 function checkArray(ddarray) {
     var result = [];
     for (let i = 0; i < ddarray.length; i++){
@@ -34,6 +36,7 @@ checkArray([
 
 
 //Zadanie 1
+
 
 var task1Array = [
     [2, 3],
@@ -68,12 +71,14 @@ for (let i = 0; i < task2Array.length; i++){
 
 
 //Zadanie 3
-fumction print2DArray(task2Array){
-for (let i = 0; i < task2Array.length; i++){
-    for (let j = 0; j < task2Array[i].length; j++);{
-    console.log(task2Array[i][j]);
+
+
+function print2DArray(task2Array){
+    for (let i = 0; i < task2Array.length; i++){
+        for (let j = 0; j < task2Array[i].length; j++);{
+            console.log(task2Array[i][j]);
+        }
     }
-}
 }
 
 print2DArray([[1,2], [3,4]]);
@@ -92,3 +97,18 @@ print2DArray(task3Array);
 
 //Zadanie 5
 
+
+function create2DArray(rows, columns){
+    var counter = 1;
+    for(let i = 0; i < rows; i++){
+        var array2 = [];
+        for(let j = 0; i < columns; j++){
+            array2.push(counter)
+            counter++;
+        }
+        array1.push(array2);
+    }
+    return array1;
+}
+
+create2DArray(4, 4)
