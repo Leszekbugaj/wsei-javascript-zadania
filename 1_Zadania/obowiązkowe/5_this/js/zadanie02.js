@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var calculator = {
 
     
@@ -14,9 +15,6 @@ multiply: function(){
 sum: function(){
     return this.a + this.b;
 }
+=======
+>>>>>>> 1f09428e5cc905997ebd93fa0c18aa5f08125ddf
 
-};
-
-calculator.save(2, 3);
-console.log(calculator.sum());
-console.log(calculator.multiply());
