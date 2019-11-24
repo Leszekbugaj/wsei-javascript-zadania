@@ -1,8 +1,19 @@
 var calculator = {
+
+    
+
     save: function (newA, newB) {
         this.a = newA;
         this.b = newB;
-    }
+    },
+
+multiply: function(){
+    return this.a * this.b;
+
+},
+sum: function(){
+    return this.a + this.b;
+}
 
 };
 
