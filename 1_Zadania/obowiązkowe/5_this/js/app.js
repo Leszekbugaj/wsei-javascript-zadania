@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 //Task 0
 var car = {
@@ -111,3 +112,6 @@ car.addService("2021");
 console.log(car.showServices());
 
 //Zadanie 3
+=======
+
+>>>>>>> 1f09428e5cc905997ebd93fa0c18aa5f08125ddf
